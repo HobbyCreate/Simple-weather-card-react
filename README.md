@@ -1,3 +1,14 @@
+# Developer Setup
+- Get your personal API key for openweathermap (https://openweathermap.org/appid)
+- Add the following in "./src/APIkeys.js"
+  
+<pre><code>
+module.exports = {
+API_KEY: { YOUR_KEY },
+BASE_API: "https://api.openweathermap.org/data/2.5/",
+}
+</code></pre>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
