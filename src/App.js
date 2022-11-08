@@ -79,11 +79,11 @@ function App() {
             <div className="temp-wind-container">
               <div className="max">
                 <h2>{Math.floor(weather.main.temp_max)} °C</h2>
-                <p>max temp</p>
+                <p>max</p>
               </div>
               <div className="min">
                 <h2>{Math.floor(weather.main.temp_min)} °C</h2>
-                <p>min temp</p>
+                <p>min</p>
               </div>
               <div className="wind-speed">
                 <h2>{Math.floor(weather.wind.speed)} km/h</h2>
